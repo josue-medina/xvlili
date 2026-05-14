@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis XV Años - Lili</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-overlay">
+        <div class="welcome-content">
+            <h2 class="welcome-subtitle">Mis XV Años</h2>
+            <h1 class="welcome-title">Lili</h1>
+            <button id="open-invitation" class="btn-gold">Presiona para abrir</button>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="hello.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <div class="fireflies"></div>
+    
+    <main>
+        <section id="hero" class="parallax-section">
+            <div class="content">
+                <div class="art-deco-frame">
+                    <h2 class="subtitle">Mis XV Años</h2>
+                    <h1 class="main-title">Lili</h1>
+                    <div class="lotus-icon">
+                        <svg viewBox="0 0 100 100" width="60" height="60">
+                            <path d="M50 20 C60 40 90 50 50 80 C10 50 40 40 50 20 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M50 30 C70 45 80 65 50 85 C20 65 30 45 50 30 Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="50" cy="85" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="princesa.png" alt="Princesa" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="countdown" class="section">
+            <div class="container">
+                <div class="countdown-container">
+                    <h3>Faltan</h3>
+                    <div id="timer" class="timer">
+                        <div class="time-block">
+                            <span id="days">00</span>
+                            <span class="label">Días</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="hours">00</span>
+                            <span class="label">Horas</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes">00</span>
+                            <span class="label">Minutos</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds">00</span>
+                            <span class="label">Segundos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="details" class="section">
+            <div class="container">
+                <div class="card">
+                    <h3>Te espero para celebrar</h3>
+                    <p class="intro-text">Hay momentos en la vida que son especiales, pero compartirlos con las personas que más quieres los hace inolvidables.</p>
+                    
+                    <div class="event-info-centered">
+                        <div class="info-item">
+                            <span class="label">Cuándo</span>
+                            <span class="value">Sábado, 5 de Diciembre 2026</span>
+                            <span class="time">19:00 Horas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section dark">
+            <div class="container">
+                <div class="art-deco-border">
+                    <h3>Ubicación</h3>
+                    <div class="address-details">
+                        <p class="venue-name">Salón Festa</p>
+                        <p class="full-address">Av. Latinoamericana 1301, Revolución, 60150 Uruapan, Mich.</p>
+                    </div>
+                    <a href="https://maps.app.goo.gl/FtXMaSgScTX1FS8Q8" target="_blank" class="btn-gold">Ver en Google Maps</a>
+                    
+                    <div class="dress-code">
+                        <h4>Código de Vestimenta</h4>
+                        <p class="dress-phrase">Formal</p>
+                        <p class="dress-subtext">Tu presencia es nuestro mejor regalo, y tu elegancia hará que esta noche brille aún más.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="section">
+            <div class="container">
+                <div class="card">
+                    <h3>Confirmar Asistencia</h3>
+                    <p>Por favor confirma tu presencia antes del 15 de Noviembre</p>
+                    <a href="https://wa.me/524521901616?text=¡Hola!+Confirmo+mi+asistencia+a+los+XV+de+Lili." class="btn-gold">Confirmar por WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Invitaciones Kiki</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
