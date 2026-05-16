@@ -300,9 +300,9 @@ h3, .itinerary-title, .dress-code h4, #rsvp h3 {
     padding: 25px 10px;
     border: 1px solid var(--emerald-deep);
     border-radius: 10px;
-    margin-top: -10px;
-    width: 100%;
-    max-width: 100%;
+    margin: -10px auto 0; /* Centrado y con el margen superior negativo */
+    width: 90%; /* Un poco de margen en móviles */
+    max-width: 500px; /* Anchura similar al contenido de la portada */
     box-sizing: border-box;
 }
 
